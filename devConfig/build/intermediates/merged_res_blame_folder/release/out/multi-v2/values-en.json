@@ -1,0 +1,102 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.itg.devconfig.devConfig-merged_res-73:/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/af906a8b5f63d7ddb5e7a98fdcffac1b/transformed/pag-sdk-ad-unfat-8004-20260421195402-release/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,120,162,213,315,395,482,576,652,749,820,916,982",
+                        "endColumns": "64,41,50,101,79,86,93,75,96,70,95,65,66",
+                        "endOffsets": "115,157,208,310,390,477,571,647,744,815,911,977,1044"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1151,1216,1258,1309,1411,1491,1578,1672,1748,1845,1916,2012,2078",
+                        "endColumns": "64,41,50,101,79,86,93,75,96,70,95,65,66",
+                        "endOffsets": "1211,1253,1304,1406,1486,1573,1667,1743,1840,1911,2007,2073,2140"
+                    }
+                },
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/5ff4d79e00ef2dc3469bcab5b0132fc7/transformed/applovin-sdk-13.6.2/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,224,291,449,581,653,736",
+                        "endColumns": "114,53,66,157,131,71,82,67",
+                        "endOffsets": "165,219,286,444,576,648,731,799"
+                    }
+                },
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/dc7596a2fea1814a6d2b9feafe44e0f2/transformed/mbridge_android_sdk-17.1.51/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,116,182,251,335",
+                        "endColumns": "60,65,68,83,66",
+                        "endOffsets": "111,177,246,330,397"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "804,865,931,1000,1084",
+                        "endColumns": "60,65,68,83,66",
+                        "endOffsets": "860,926,995,1079,1146"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.itg.devconfig.devConfig-mergeReleaseResources-71:/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/af906a8b5f63d7ddb5e7a98fdcffac1b/transformed/pag-sdk-ad-unfat-8004-20260421195402-release/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,120,162,213,315,395,482,576,652,749,820,916,982",
+                        "endColumns": "64,41,50,101,79,86,93,75,96,70,95,65,66",
+                        "endOffsets": "115,157,208,310,390,477,571,647,744,815,911,977,1044"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1151,1216,1258,1309,1411,1491,1578,1672,1748,1845,1916,2012,2078",
+                        "endColumns": "64,41,50,101,79,86,93,75,96,70,95,65,66",
+                        "endOffsets": "1211,1253,1304,1406,1486,1573,1667,1743,1840,1911,2007,2073,2140"
+                    }
+                },
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/5ff4d79e00ef2dc3469bcab5b0132fc7/transformed/applovin-sdk-13.6.2/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,224,291,449,581,653,736",
+                        "endColumns": "114,53,66,157,131,71,82,67",
+                        "endOffsets": "165,219,286,444,576,648,731,799"
+                    }
+                },
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/dc7596a2fea1814a6d2b9feafe44e0f2/transformed/mbridge_android_sdk-17.1.51/res/values-en/values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,116,182,251,335",
+                        "endColumns": "60,65,68,83,66",
+                        "endOffsets": "111,177,246,330,397"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "804,865,931,1000,1084",
+                        "endColumns": "60,65,68,83,66",
+                        "endOffsets": "860,926,995,1079,1146"
+                    }
+                }
+            ]
+        }
+    ]
+}

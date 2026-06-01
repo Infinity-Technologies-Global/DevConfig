@@ -1,0 +1,1298 @@
+[
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_arrow_down_white.png",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_arrow_down_white.png"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_purchase.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/bg_purchase.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_list_selector_holo_light.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_chartboost.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_chartboost.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button_icon.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button_icon.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_cab_background_top_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/material_ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/material_ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/material_ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/material_ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_privacy_icon_layered_list.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_privacy_icon_layered_list.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_nativex_sound_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_nativex_sound_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_alertview_cancel_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_alertview_cancel_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_alertview_cancel_bg_pressed.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_alertview_cancel_bg_pressed.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_dropdown_arrow.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/tooltip_frame_dark.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_arrow_down_white_blackbg.png",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_arrow_down_white_blackbg.png"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_m3_chip_checked_circle.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_m3_chip_checked_circle.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/admob_close_button_white_cross.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-ads-25.2.0-20:/drawable/admob_close_button_white_cross.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_feedback_choice_btn_bg_pressed.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_feedback_choice_btn_bg_pressed.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/liftoff_icon_mute.xml",
+        "source": "com.itg.devconfig.devConfig-vungle-ads-7.7.2-39:/drawable/liftoff_icon_mute.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_arrow_up_white.png",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_arrow_up_white.png"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_shape_line.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_shape_line.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_baseline_add_circle_outline.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_baseline_add_circle_outline.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_splash_button_bg_gray.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_splash_button_bg_gray.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_developer_setting.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/ic_developer_setting.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_native_advanced_close_icon.png",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_native_advanced_close_icon.png"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/tt_button_blue_back.xml",
+        "source": "com.itg.devconfig.devConfig-pag-sdk-ad-unfat-8004-20260421195402-release-50:/drawable/tt_button_blue_back.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_list_selector_holo_dark.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/m3_avd_show_password.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/m3_avd_show_password.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_videoend_buttonbg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_videoend_buttonbg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button_icon_indeterminate_unchecked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button_icon_indeterminate_unchecked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_pubmatic.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_pubmatic.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_menu_cut_mtrl_alpha.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_inmobi.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_inmobi.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/test_level_drawable.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/test_level_drawable.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/shape_bg_exit_dialog3.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/shape_bg_exit_dialog3.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_progress.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_progress.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_app_purchase.jpg",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ic_app_purchase.jpg"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_progress_drawable.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_progress_drawable.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_placeholder.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_placeholder.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_menu_share_mtrl_alpha.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb_pressed_checked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb_pressed_checked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_end_shape_oval.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_end_shape_oval.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_nativex_cta_por_pre.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_nativex_cta_por_pre.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_exits.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_exits.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_google_ad_manager.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_google_ad_manager.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_card_ads.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/bg_card_ads.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_seekbar_thumb_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_search_black_24.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_search_black_24.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_line.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_line.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-common-18.2.3-8:/drawable/com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_call_answer_video.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/ic_call_answer_video.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_mediation_status_warning.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_mediation_status_warning.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_chevron_up.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/ic_chevron_up.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_dialog_developer_switch_row.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_dialog_developer_switch_row.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/com_facebook_send_button_icon.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-share-18.2.3-53:/drawable/com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_feedback_choice_btn_bg_nor.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_feedback_choice_btn_bg_nor.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_bidmachine.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_bidmachine.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_ic_checkbox_checked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_ic_checkbox_checked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/material_cursor_drawable.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/material_cursor_drawable.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_star_half_black_48dp.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/liftoff_icon_unmute.xml",
+        "source": "com.itg.devconfig.devConfig-vungle-ads-7.7.2-39:/drawable/liftoff_icon_unmute.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_choice.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_choice.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_nativex_play_progress.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_nativex_play_progress.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_shape_splash_corners_14.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_shape_splash_corners_14.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_bottomsheet_drag_handle.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_bottomsheet_drag_handle.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/btn_radio_off_mtrl.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_check_mark_bordered.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_check_mark_bordered.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_more_offer_default_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_more_offer_default_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_close_ads.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ic_close_ads.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/messenger_button_white_bg_round.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-messenger-18.2.3-57:/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button_checked_unchecked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button_checked_unchecked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_btn_check_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_chevron_down.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/ic_chevron_down.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/notification_tile_bg.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/com_facebook_button_send_background.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-share-18.2.3-53:/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_call_answer_low.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/ic_call_answer_low.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_unity.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_unity.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_tab_indicator_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_alertview_confirm_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_alertview_confirm_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_feedback_dialog_view_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_feedback_dialog_view_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_warning_outline.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_warning_outline.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_mobilefuse.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_mobilefuse.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/m3_avd_hide_password.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/m3_avd_hide_password.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/messenger_button_blue_bg_round.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-messenger-18.2.3-57:/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb_checked_pressed.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb_checked_pressed.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_expand_less_22px.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_expand_less_22px.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button_icon_checked_indeterminate.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button_icon_checked_indeterminate.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/admob_close_button_white_circle_black_cross.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-ads-25.2.0-20:/drawable/admob_close_button_white_circle_black_cross.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_call_decline.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/ic_call_decline.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_ic_checkbox_unchecked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_ic_checkbox_unchecked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_btn_borderless_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_call_answer_video_low.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/ic_call_answer_video_low.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_vector_test.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-resources-1.7.1-45:/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_call_answer.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/ic_call_answer.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_moloco.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_moloco.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/m3_tabs_line_indicator.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/m3_tabs_line_indicator.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/selector_bg_button_ads.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/selector_bg_button_ads.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_fyber.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_fyber.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/design_password_eye.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_ogury_presage.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_ogury_presage.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-messenger-18.2.3-57:/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/com_facebook_button_like_background.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-common-18.2.3-8:/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/shape_bg_native.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/shape_bg_native.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/com_facebook_button_icon.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-common-18.2.3-8:/drawable/com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_x_mark.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_x_mark.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_clear_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_build_badge_debug.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_build_badge_debug.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_shape_splash_circle_14.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_shape_splash_circle_14.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ratingbar_full.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ratingbar_full.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_developer_checklist_section.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_developer_checklist_section.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_creative_debugger_report_ad_rounded_button.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_creative_debugger_report_ad_rounded_button.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/notification_icon_background.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/material_ic_calendar_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/material_ic_calendar_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/offline_dialog_background.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-ads-25.2.0-20:/drawable/offline_dialog_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_rounded_text_view_border.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_rounded_text_view_border.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_alertview_confirm_bg_nor.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_alertview_confirm_bg_nor.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_cab_background_internal_bg.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_ic_error.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_ic_error.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_feedback_choice_btn_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_feedback_choice_btn_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb_unchecked_checked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb_unchecked_checked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_call_decline_low.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/ic_call_decline_low.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_nativex_full_land_close.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_nativex_full_land_close.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_mediation_debugger_switch_track.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_mediation_debugger_switch_track.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/rounded_dialog.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/rounded_dialog.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/shape_bg_exit_dialog.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/shape_bg_exit_dialog.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_amazon_marketplace.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_amazon_marketplace.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button_icon_checked_unchecked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button_icon_checked_unchecked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_mediation_status_missing.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_mediation_status_missing.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_clear_black_24.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_clear_black_24.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_navigation_bar_item_background.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_navigation_bar_item_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_yandex.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_yandex.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_tiktok.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_tiktok.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb_checked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb_checked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/material_ic_edit_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/material_ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_textfield_search_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_item_background_holo_dark.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_dialog_background.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/admob_close_button_black_circle_white_cross.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-ads-25.2.0-20:/drawable/admob_close_button_black_circle_white_cross.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_shape_normal.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_shape_normal.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-common-18.2.3-8:/drawable/com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_keyboard_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_clock_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_clock_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_end_pager.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_end_pager.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_mof_like_normal.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_mof_like_normal.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/tt_app_open_top_bg.xml",
+        "source": "com.itg.devconfig.devConfig-pag-sdk-ad-unfat-8004-20260421195402-release-50:/drawable/tt_app_open_top_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_mof_like_pressed.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_mof_like_pressed.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_alertview_confirm_bg_pressed.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_alertview_confirm_bg_pressed.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_rounded_button.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_rounded_button.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_mytarget.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_mytarget.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_warning.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_warning.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_popupmenu_background.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_popupmenu_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_unmute_to_mute.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_unmute_to_mute.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_privacy_icon.png",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_privacy_icon.png"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button_icon_unchecked_indeterminate.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button_icon_unchecked_indeterminate.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_vungle.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_vungle.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb_unchecked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb_unchecked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mute_to_unmute.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mute_to_unmute.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_ic_arrow_drop_up.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_check_mark_borderless.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_check_mark_borderless.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_splash_button_bg_green.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_splash_button_bg_green.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_ironsource.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_ironsource.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_pause_icon.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_pause_icon.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_order_history.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_order_history.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_m3_chip_check.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_m3_chip_check.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_arrow_back_black_24.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_arrow_back_black_24.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_btn_radio_material_anim.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_alertview_cancel_bg_nor.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_alertview_cancel_bg_nor.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_expand_more_22px.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_expand_more_22px.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_order.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_order.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_seekbar_track_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_pangle.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_pangle.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button_icon_indeterminate_checked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button_icon_indeterminate_checked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/material_ic_menu_arrow_up_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/material_ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_bigo.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_bigo.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/tt_user_info.xml",
+        "source": "com.itg.devconfig.devConfig-pag-sdk-ad-unfat-8004-20260421195402-release-50:/drawable/tt_user_info.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_smaato.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_smaato.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_mintegral.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_mintegral.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/avd_show_password.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/avd_show_password.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/design_fab_background.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_dialog_developer_accent.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_dialog_developer_accent.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/messenger_button_white_bg_selector.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-messenger-18.2.3-57:/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_back.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_track_decoration.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_track_decoration.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_facebook.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_facebook.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_search_api_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_shape_corners_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_shape_corners_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_text_cursor_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/m3_password_eye.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/m3_password_eye.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_nativex_sound_animation.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_nativex_sound_animation.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/design_ic_visibility.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_ic_arrow_drop_down.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_choice_rl.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_choice_rl.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/tooltip_frame_light.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_mtrl_checked_circle.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_arrow_up_black.png",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_arrow_up_black.png"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_star_black_48dp.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_mtrl_arrow_circle.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_mtrl_arrow_circle.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_shape_mf_selector.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_shape_mf_selector.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_order_layout_list_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_order_layout_list_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_policy.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/ic_policy.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_white_small.png",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_white_small.png"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_backward.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_backward.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/notification_bg_low.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_forward.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_forward.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_build_badge_release.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_build_badge_release.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_disclosure_arrow.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_disclosure_arrow.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_splash_button_bg_gray_55.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_splash_button_bg_gray_55.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/avd_hide_password.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/avd_hide_password.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_admob.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_admob.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/material_ic_menu_arrow_down_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/material_ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb_pressed.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb_pressed.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_btn_check_material_anim.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/m3_bottom_sheet_drag_handle.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/m3_bottom_sheet_drag_handle.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_ratingbar_star_off.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ic_ratingbar_star_off.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_video_time_count_num_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_video_time_count_num_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_circle_50black.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_circle_50black.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_shape_outline.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_shape_outline.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button_unchecked_checked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button_unchecked_checked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_interstitial_over.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_interstitial_over.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_end_close_shape_oval.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_end_close_shape_oval.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_go_search_api_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/navigation_empty_icon.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/selector_button_exit.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/selector_button_exit.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/m3_split_button_chevron_avd.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/m3_split_button_chevron_avd.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_shape_btn.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_shape_btn.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_rounded_black_background.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_rounded_black_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_mediation_debugger_switch_thumb.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_mediation_debugger_switch_thumb.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/tt_button_back.xml",
+        "source": "com.itg.devconfig.devConfig-pag-sdk-ad-unfat-8004-20260421195402-release-50:/drawable/tt_button_back.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_nativex_fullview_background.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_nativex_fullview_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/selector_button_exit_transfer.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/selector_button_exit_transfer.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/btn_radio_on_mtrl.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb_unchecked_pressed.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb_unchecked_pressed.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_btn_radio_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_adjoe.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_adjoe.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_ic_indeterminate.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_ic_indeterminate.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb_checked_unchecked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb_checked_unchecked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ratingbar_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_switch_thumb_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/m3_popupmenu_background_overlay.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/m3_popupmenu_background_overlay.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ads_bg_lib.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ads_bg_lib.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_alertview_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_alertview_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_text_light.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/m3_tabs_rounded_line_indicator.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/m3_tabs_rounded_line_indicator.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ratingbar_small_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_video_progress_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_video_progress_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_end_card_shape_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_end_card_shape_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_thumb_pressed_unchecked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_thumb_pressed_unchecked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_checkbox_button_icon_unchecked_checked.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_checkbox_button_icon_unchecked_checked.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_ratingbar_star_on.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ic_ratingbar_star_on.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_ic_ab_back_material.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_splash_close_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_splash_close_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_shape_splash_rightbottom_corners_10.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_shape_splash_rightbottom_corners_10.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/design_snackbar_background.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/material_ic_clear_black_24dp.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/material_ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_applovin.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_applovin.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_native_bg_loading_camera.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_native_bg_loading_camera.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ads_icon.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ads_icon.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_feedback_btn_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_feedback_btn_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_nativex_play_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_nativex_play_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_ic_check_mark.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_ic_check_mark.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_reward_video_progressbar_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_reward_video_progressbar_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_nativex_full_protial_close.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_nativex_full_protial_close.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/abc_item_background_holo_light.xml",
+        "source": "com.itg.devconfig.devConfig-appcompat-1.7.1-60:/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/design_ic_visibility_off.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_developer_checklist_table_header.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_developer_checklist_table_header.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/offline_dialog_default_icon_42dp.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-ads-25.2.0-20:/drawable/offline_dialog_default_icon_42dp.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_refresh.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_refresh.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_play_icon.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_play_icon.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/com_facebook_auth_dialog_header_background.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-common-18.2.3-8:/drawable/com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_mediation_verve.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_mediation_verve.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ads_icon2.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ads_icon2.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_nativex_cta_por_nor.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_nativex_cta_por_nor.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/notification_bg.xml",
+        "source": "com.itg.devconfig.devConfig-core-1.17.0-31:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_m3_chip_close.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_m3_chip_close.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "com.itg.devconfig.devConfig-play-services-base-18.5.0-30:/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_switch_track.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_switch_track.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/com_facebook_favicon_blue.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-common-18.2.3-8:/drawable/com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mtrl_ic_cancel.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_close.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cta_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cta_bg.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/applovin_ic_replay_icon.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable/applovin_ic_replay_icon.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/tt_ugen_rating_star.png",
+        "source": "com.itg.devconfig.devConfig-pag-sdk-ad-unfat-8004-20260421195402-release-50:/drawable/tt_ugen_rating_star.png"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/com_facebook_button_background.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-common-18.2.3-8:/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/gnt_outline_shape.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/gnt_outline_shape.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/bg_mediation_status_ready.xml",
+        "source": "com.itg.devconfig.devConfig-main-74:/drawable/bg_mediation_status_ready.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/gnt_rounded_corners_shape.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/gnt_rounded_corners_shape.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/ic_warning.xml",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/drawable/ic_warning.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable/mbridge_cm_feedback_dialog_view_btn_bg.xml",
+        "source": "com.itg.devconfig.devConfig-mbridge_android_sdk-17.1.51-62:/drawable/mbridge_cm_feedback_dialog_view_btn_bg.xml"
+    }
+]

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorDisable">#bcbcbc</color>
+    <color name="color_9E9E9E">#9E9E9E</color>
+    <color name="color_FFA510">#FFA510</color>
+    <color name="color_bg_main">#F4F4F4</color>
+    <color name="color_button">#3397FF</color>
+    <color name="color_checklist_enabled">#4CAF50</color>
+    <color name="color_main">#0573B8</color>
+    <color name="textPrimary">#1F1F1F</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="developer_checklist_adjust_token" translatable="false">Adjust Token</string>
+    <string name="developer_checklist_admob_app_id" translatable="false">AdMob Application ID</string>
+    <string name="developer_checklist_build_debug" translatable="false">DEBUG · v%1$s</string>
+    <string name="developer_checklist_build_release" translatable="false">RELEASE · v%1$s</string>
+    <string name="developer_checklist_disabled" translatable="false">OFF</string>
+    <string name="developer_checklist_enabled" translatable="false">ON</string>
+    <string name="developer_checklist_expand_collapse" translatable="false">Expand or collapse section</string>
+    <string name="developer_checklist_facebook_app_id" translatable="false">Facebook App ID</string>
+    <string name="developer_checklist_facebook_client_token" translatable="false">Facebook Client Token</string>
+    <string name="developer_checklist_gdpr_module" translatable="false">Module Update GDPR</string>
+    <string name="developer_checklist_load_error" translatable="false">Failed to load: %1$s</string>
+    <string name="developer_checklist_mediation_col_adapter" translatable="false">Adapter</string>
+    <string name="developer_checklist_mediation_col_network" translatable="false">Network</string>
+    <string name="developer_checklist_mediation_col_status" translatable="false">Mediation</string>
+    <string name="developer_checklist_mediation_empty" translatable="false">No mediation adapter detected</string>
+    <string name="developer_checklist_mediation_latency" translatable="false">Latency: %1$dms</string>
+    <string name="developer_checklist_mediation_loading" translatable="false">Checking mediation adapters…</string>
+    <string name="developer_checklist_mediation_not_integrated" translatable="false">MISSING</string>
+    <string name="developer_checklist_mediation_not_ready" translatable="false">NOT READY</string>
+    <string name="developer_checklist_mediation_ready" translatable="false">READY</string>
+    <string name="developer_checklist_mediation_sdk_only" translatable="false">SDK ONLY</string>
+    <string name="developer_checklist_na" translatable="false">N/A</string>
+    <string name="developer_checklist_nkh_studio" translatable="false">NKH-Studio (Ads Lib)</string>
+    <string name="developer_checklist_play_services_ads" translatable="false">Google Play Services Ads</string>
+    <string name="developer_checklist_section_ad_release" translatable="false">Ad Config — Release (%1$s)</string>
+    <string name="developer_checklist_section_item_count" translatable="false">%1$d</string>
+    <string name="developer_checklist_section_mediation" translatable="false">Mediation Networks</string>
+    <string name="developer_checklist_section_sdk" translatable="false">SDK &amp; Libraries</string>
+    <string name="developer_checklist_section_tracking" translatable="false">Tracking — Adjust &amp; Facebook</string>
+    <string name="developer_checklist_tiktok_event_token" translatable="false">TikTok Event Token</string>
+    <string name="developer_checklist_title" translatable="false">Developer Checklist</string>
+    <string name="txt_admin_ads_unlimited_disabled" translatable="false">Unlimited Ads mode disabled</string>
+    <string name="txt_admin_ads_unlimited_enabled" translatable="false">Unlimited Ads mode enabled</string>
+    <string name="txt_apply" translatable="false">Apply</string>
+    <string name="txt_developer_setting_subtitle" translatable="false">Internal tools for QA &amp; developers</string>
+    <string name="txt_developer_setting_title" translatable="false">Developer Setting</string>
+    <string name="txt_developer_setting_unlimited_ads" translatable="false">Unlimited Ads</string>
+    <string name="txt_developer_setting_unlimited_ads_hint" translatable="false">Enable to show all ad placements</string>
+    <string name="txt_show_checklist_option" translatable="false">Show Checklist option</string>
+    <style name="DevConfigDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="DevConfigTextBold" parent="DevConfigTextRegular">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="DevConfigTextRegular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ThemeDevConfig" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/color_bg_main</item>
+    </style>
+    <style name="text_bold_10" parent="DevConfigTextBold">
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+    <style name="text_bold_12" parent="DevConfigTextBold">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+    <style name="text_bold_14" parent="DevConfigTextBold">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+    <style name="text_bold_16" parent="DevConfigTextBold">
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+    <style name="text_regular_10" parent="DevConfigTextRegular">
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+    <style name="text_regular_12" parent="DevConfigTextRegular">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+</resources>

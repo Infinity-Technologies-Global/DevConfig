@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.itg.devconfig.devConfig-merged_res-73:/values-ja-rJP/values-ja-rJP.xml",
+            "map": [
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/dc7596a2fea1814a6d2b9feafe44e0f2/transformed/mbridge_android_sdk-17.1.51/res/values-ja-rJP/values-ja-rJP.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,116",
+                        "endColumns": "60,63",
+                        "endOffsets": "111,175"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.itg.devconfig.devConfig-mergeReleaseResources-71:/values-ja-rJP/values-ja-rJP.xml",
+            "map": [
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/dc7596a2fea1814a6d2b9feafe44e0f2/transformed/mbridge_android_sdk-17.1.51/res/values-ja-rJP/values-ja-rJP.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,116",
+                        "endColumns": "60,63",
+                        "endOffsets": "111,175"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/menu/mediation_debugger_activity_menu.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/menu/mediation_debugger_activity_menu.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/menu/axon_events_activity_menu.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/menu/axon_events_activity_menu.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/menu/creative_debugger_displayed_ad_activity_menu.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/menu/creative_debugger_displayed_ad_activity_menu.xml"
+    }
+]

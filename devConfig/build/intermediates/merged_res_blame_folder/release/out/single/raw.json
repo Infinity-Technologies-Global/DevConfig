@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/raw/omid_session_client_v1_6_2.js",
+        "source": "com.itg.devconfig.devConfig-vungle-ads-7.7.2-39:/raw/omid_session_client_v1_6_2.js"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/raw/firebase_common_keep.xml",
+        "source": "com.itg.devconfig.devConfig-firebase-common-21.0.0-49:/raw/firebase_common_keep.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/raw/applovin_consent_flow_unified_cmp.json",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/raw/applovin_consent_flow_unified_cmp.json"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/raw/com_android_billingclient_registration_info.binarypb",
+        "source": "com.itg.devconfig.devConfig-billing-8.3.0-10:/raw/com_android_billingclient_registration_info.binarypb"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/raw/keep_cronet_api.xml",
+        "source": "com.itg.devconfig.devConfig-cronet-api-72.3626.96-24:/raw/keep_cronet_api.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/raw/resume_loading.json",
+        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/raw/resume_loading.json"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/raw/omsdk_v1_6_2.js",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/raw/omsdk_v1_6_2.js"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/raw/com_android_billingclient_heterodyne_info",
+        "source": "com.itg.devconfig.devConfig-billing-8.3.0-10:/raw/com_android_billingclient_heterodyne_info"
+    }
+]

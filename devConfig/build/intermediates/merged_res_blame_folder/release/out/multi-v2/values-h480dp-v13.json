@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.itg.devconfig.devConfig-merged_res-73:/values-h480dp-v13/values-h480dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/81adf2f58d5f96e6c8b34a11d07079df/transformed/material-1.13.0/res/values-h480dp-v13/values-h480dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.itg.devconfig.devConfig-mergeReleaseResources-71:/values-h480dp-v13/values-h480dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/81adf2f58d5f96e6c8b34a11d07079df/transformed/material-1.13.0/res/values-h480dp-v13/values-h480dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
+                    }
+                }
+            ]
+        }
+    ]
+}

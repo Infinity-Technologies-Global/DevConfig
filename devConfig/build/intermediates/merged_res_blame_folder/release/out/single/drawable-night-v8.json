@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable-night-v8/applovin_ic_baseline_add_circle_outline.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable-night-v8/applovin_ic_baseline_add_circle_outline.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-73:/drawable-night-v8/applovin_ic_warning_outline.xml",
+        "source": "com.itg.devconfig.devConfig-applovin-sdk-13.6.2-29:/drawable-night-v8/applovin_ic_warning_outline.xml"
+    }
+]
