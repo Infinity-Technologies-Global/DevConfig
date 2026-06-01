@@ -4,27 +4,7 @@ Thư viện hỗ trợ Developer Checklist và Admin Menu dành riêng cho các 
 
 ## 📦 Cài đặt
 
-### 1. Cấu hình Repositories
-Thêm các kho chứa (repositories) cần thiết vào file `settings.gradle` của dự án gốc:
-
-```gradle
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        maven { url "https://jitpack.io" }
-        
-        // Các repo phục vụ mạng quảng cáo
-        maven { url 'https://repo1.maven.org/maven2' }
-        maven { url 'https://artifact.bytedance.com/repository/pangle/' }
-        maven { url 'https://android-sdk.is.com/' }
-        maven { url = uri("https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea") }
-    }
-}
-```
-
-### 2. Thêm thư viện vào App
+### 1. Thêm thư viện vào App
 Mở file `app/build.gradle`, tiến hành thêm thư viện và khai báo các biến môi trường:
 
 ```gradle
