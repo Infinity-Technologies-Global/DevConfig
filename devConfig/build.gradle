@@ -6,14 +6,14 @@ plugins {
 
 android {
     namespace 'com.itg.devconfig'
-    compileSdk 36
+    compileSdk rootProject.ext.compile_sdk_version
 
     defaultConfig {
-        minSdk 24
+        minSdk rootProject.ext.min_sdk_version
 
-        buildConfigField "String", "NKH_STUDIO_VERSION", "\"5.8\""
-        buildConfigField "String", "PLAY_SERVICES_ADS_VERSION", "\"24.7.0\""
-        buildConfigField "String", "GDPR_MODULE_VERSION", "\"2.0.2\""
+        buildConfigField "String", "NKH_STUDIO_VERSION", "\"$nkh_studio_version\""
+        buildConfigField "String", "PLAY_SERVICES_ADS_VERSION", "\"$play_services_ads_version\""
+        buildConfigField "String", "GDPR_MODULE_VERSION", "\"$module_update_gdpr_version\""
     }
 
     buildTypes {
@@ -39,17 +39,17 @@ android {
 }
 
 dependencies {
-    implementation "androidx.core:core-ktx:1.17.0"
-    implementation "androidx.appcompat:appcompat:1.7.1"
-    implementation "com.google.android.material:material:1.13.0"
-    implementation "androidx.recyclerview:recyclerview:1.4.0"
+    implementation "androidx.core:core-ktx:$androidx_core_ktx_version"
+    implementation "androidx.appcompat:appcompat:$androidx_appcompat_version"
+    implementation "com.google.android.material:material:$androidx_material_version"
+    implementation "androidx.recyclerview:recyclerview:$androidx_recyclerview_version"
     implementation "androidx.activity:activity-ktx:1.9.3"
 
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
     implementation 'com.intuit.ssp:ssp-android:1.1.0'
 
-    implementation "com.github.trongluan99:NKH-Studio:5.8"
-    implementation "com.google.android.gms:play-services-ads:24.7.0"
+    implementation "com.github.trongluan99:NKH-Studio:$nkh_studio_version"
+    implementation "com.google.android.gms:play-services-ads:$play_services_ads_version"
 }
 
 afterEvaluate {
