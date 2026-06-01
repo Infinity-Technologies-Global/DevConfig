@@ -1,0 +1,48 @@
+package com.itg.devconfig
+
+import android.content.Context
+import android.os.Build
+
+object DevConfig {
+
+    @Volatile
+    private var appConfig: DevConfigAppConfig? = null
+
+    fun init(context: Context) {
+        val packageInfo = getPackageInfoCompat(context)
+        val versionName = packageInfo?.versionName?.takeIf { it.isNotBlank() } ?: "N/A"
+
+        appConfig = DevConfigAppConfig(
+            isDebugBuild = (context.applicationInfo.flags and android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE) != 0,
+            versionName = versionName,
+            adjustToken = context.getHostString("adjust_token"),
+            facebookAppId = context.getHostString("facebook_app_id"),
+            facebookClientToken = context.getHostString("facebook_client_token"),
+            tiktokEventToken = context.getHostString("event_token")
+        )
+    }
+
+    internal fun requireAppConfig(): DevConfigAppConfig {
+        return appConfig
+            ?: error("DevConfig.init() must be called before using developer settings.")
+    }
+
+    private fun Context.getHostString(name: String): String {
+        val id = resources.getIdentifier(name, "string", packageName)
+        return if (id != 0) getString(id) else "N/A"
+    }
+
+    @Suppress("DEPRECATION")
+    private fun getPackageInfoCompat(context: Context): android.content.pm.PackageInfo? {
+        return try {
+            val pm = context.packageManager
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                pm.getPackageInfo(context.packageName, android.content.pm.PackageManager.PackageInfoFlags.of(0))
+            } else {
+                pm.getPackageInfo(context.packageName, 0)
+            }
+        } catch (_: Exception) {
+            null
+        }
+    }
+}
