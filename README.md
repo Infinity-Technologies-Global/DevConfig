@@ -85,11 +85,8 @@ import com.itg.devconfig.utils.setOnAdminAdToggleListener
 class LanguageActivity : BaseActivity<ActivityLanguageBinding>() {
     
     override fun initViews() {
-        // Gắn listener bí mật vào tiêu đề (tvTitle)
-        // Lưu ý: Cần click nhanh 10 lần vào chữ này để mở bảng DevConfig
+        // Gắn listener vào View mong muốn
         mBinding.tvTitle.setOnAdminAdToggleListener()
     }
 }
 ```
-
-🎉 **Xong!** Bây giờ khi chạy app, bạn chỉ cần bấm liên tục 10 lần vào `tvTitle` ở màn Language là màn hình Developer Checklist sẽ hiện ra!
