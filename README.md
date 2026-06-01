@@ -1,0 +1,95 @@
+# ITG DevConfig Library
+
+Thư viện hỗ trợ Developer Checklist và Admin Menu dành riêng cho các dự án của Infinity Technologies Global.
+
+## 📦 Cài đặt
+
+### 1. Cấu hình Repositories
+Thêm các kho chứa (repositories) cần thiết vào file `settings.gradle` của dự án gốc:
+
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        
+        // Các repo phục vụ mạng quảng cáo
+        maven { url 'https://repo1.maven.org/maven2' }
+        maven { url 'https://artifact.bytedance.com/repository/pangle/' }
+        maven { url 'https://android-sdk.is.com/' }
+        maven { url = uri("https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea") }
+    }
+}
+```
+
+### 2. Thêm thư viện vào App
+Mở file `app/build.gradle`, tiến hành thêm thư viện và khai báo các biến môi trường:
+
+```gradle
+android {
+    defaultConfig {
+        // ... các config khác ...
+        
+        // Bắt buộc: Khai báo phiên bản các SDK đang sử dụng để hiển thị lên màn hình Checklist
+        buildConfigField "String", "NKH_STUDIO_VERSION", "\"5.8\"" // Có thể thay bằng biến
+        buildConfigField "String", "PLAY_SERVICES_ADS_VERSION", "\"24.7.0\""
+        buildConfigField "String", "GDPR_MODULE_VERSION", "\"2.0.2\""
+    }
+}
+
+dependencies {
+    // Thêm dòng này (Cập nhật phiên bản mới nhất thay cho 1.0.0)
+    implementation 'com.github.Infinity-Technologies-Global:DevConfig:1.0.0'
+}
+```
+
+## 🚀 Hướng dẫn tích hợp (Sử dụng)
+
+Sau khi sync Gradle thành công, bạn cần làm 2 bước đơn giản sau:
+
+### Bước 1: Khởi tạo GlobalApp
+Thư viện cần được khởi tạo **một lần duy nhất** ngay khi mở app để nhận diện cấu hình. Mở file `GlobalApp.kt` (class kế thừa `Application`) và thêm lệnh init:
+
+```kotlin
+import com.itg.devconfig.DevConfig
+// ...
+
+class GlobalApp : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        
+        // Khởi tạo DevConfig và truyền version vào
+        DevConfig.init(
+            context = this,
+            nkhStudioVersion = BuildConfig.NKH_STUDIO_VERSION,
+            playServicesAdsVersion = BuildConfig.PLAY_SERVICES_ADS_VERSION,
+            gdprModuleVersion = BuildConfig.GDPR_MODULE_VERSION
+        )
+        
+        // Code khác của bạn...
+    }
+}
+```
+
+### Bước 2: Kích hoạt màn hình ẩn ở LanguageActivity (hoặc màn hình bất kỳ)
+Để mở được menu DevConfig, bạn cần gắn bộ kích hoạt (trigger) vào một View bất kỳ (ví dụ: title của màn hình). Thường chúng ta sẽ gắn ở `LanguageActivity`.
+
+Mở file `LanguageActivity.kt` và thêm dòng sau vào hàm khởi tạo view:
+
+```kotlin
+import com.itg.devconfig.utils.setOnAdminAdToggleListener
+// ...
+
+class LanguageActivity : BaseActivity<ActivityLanguageBinding>() {
+    
+    override fun initViews() {
+        // Gắn listener bí mật vào tiêu đề (tvTitle)
+        // Lưu ý: Cần click nhanh 10 lần vào chữ này để mở bảng DevConfig
+        mBinding.tvTitle.setOnAdminAdToggleListener()
+    }
+}
+```
+
+🎉 **Xong!** Bây giờ khi chạy app, bạn chỉ cần bấm liên tục 10 lần vào `tvTitle` ở màn Language là màn hình Developer Checklist sẽ hiện ra!
