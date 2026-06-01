@@ -10,10 +10,6 @@ android {
 
     defaultConfig {
         minSdk rootProject.ext.min_sdk_version
-
-        buildConfigField "String", "NKH_STUDIO_VERSION", "\"$nkh_studio_version\""
-        buildConfigField "String", "PLAY_SERVICES_ADS_VERSION", "\"$play_services_ads_version\""
-        buildConfigField "String", "GDPR_MODULE_VERSION", "\"$module_update_gdpr_version\""
     }
 
     buildTypes {

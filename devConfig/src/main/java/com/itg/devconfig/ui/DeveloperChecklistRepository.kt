@@ -25,15 +25,15 @@ object DeveloperChecklistRepository {
             children = listOf(
                 infoRow(
                     context.getString(R.string.developer_checklist_nkh_studio),
-                    BuildConfig.NKH_STUDIO_VERSION
+                    appConfig.nkhStudioVersion
                 ),
                 infoRow(
                     context.getString(R.string.developer_checklist_play_services_ads),
-                    BuildConfig.PLAY_SERVICES_ADS_VERSION
+                    appConfig.playServicesAdsVersion
                 ),
                 infoRow(
                     context.getString(R.string.developer_checklist_gdpr_module),
-                    BuildConfig.GDPR_MODULE_VERSION
+                    appConfig.gdprModuleVersion
                 )
             )
         )

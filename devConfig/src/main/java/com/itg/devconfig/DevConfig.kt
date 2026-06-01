@@ -8,7 +8,12 @@ object DevConfig {
     @Volatile
     private var appConfig: DevConfigAppConfig? = null
 
-    fun init(context: Context) {
+    fun init(
+        context: Context,
+        nkhStudioVersion: String,
+        playServicesAdsVersion: String,
+        gdprModuleVersion: String
+    ) {
         val packageInfo = getPackageInfoCompat(context)
         val versionName = packageInfo?.versionName?.takeIf { it.isNotBlank() } ?: "N/A"
 
@@ -18,7 +23,10 @@ object DevConfig {
             adjustToken = context.getHostString("adjust_token"),
             facebookAppId = context.getHostString("facebook_app_id"),
             facebookClientToken = context.getHostString("facebook_client_token"),
-            tiktokEventToken = context.getHostString("event_token")
+            tiktokEventToken = context.getHostString("event_token"),
+            nkhStudioVersion = nkhStudioVersion,
+            playServicesAdsVersion = playServicesAdsVersion,
+            gdprModuleVersion = gdprModuleVersion
         )
     }
 
