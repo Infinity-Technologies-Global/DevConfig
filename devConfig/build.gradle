@@ -56,7 +56,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.YOUR_GITHUB_USERNAME' // Tên tài khoản Github của bạn
                 artifactId = 'devConfig'
-                version = '1.0.1-partner'
+                version = '1.0.2-partner'
             }
         }
     }
