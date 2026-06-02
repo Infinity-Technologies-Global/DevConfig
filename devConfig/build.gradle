@@ -45,7 +45,7 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
     implementation 'com.intuit.ssp:ssp-android:1.1.0'
 
-    implementation "com.github.trongluan99:NKH-Studio:$nkh_studio_version"
+    implementation "com.github.trongluan99:ERain-Studio:$erain_studio_version"
     implementation "com.google.android.gms:play-services-ads:$play_services_ads_version"
 }
 
@@ -56,7 +56,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.YOUR_GITHUB_USERNAME' // Tên tài khoản Github của bạn
                 artifactId = 'devConfig'
-                version = '1.0.1' // Phiên bản bạn muốn publish
+                version = '1.0.1-partner'
             }
         }
     }

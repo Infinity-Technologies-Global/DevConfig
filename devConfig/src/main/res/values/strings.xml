@@ -24,7 +24,7 @@
     <string name="developer_checklist_mediation_not_integrated" translatable="false">MISSING</string>
     <string name="developer_checklist_mediation_latency" translatable="false">Latency: %1$dms</string>
     <string name="developer_checklist_section_ad_release" translatable="false">Ad Config — Release (%1$s)</string>
-    <string name="developer_checklist_nkh_studio" translatable="false">NKH-Studio (Ads Lib)</string>
+    <string name="developer_checklist_nkh_studio" translatable="false">Erain-Ads-Version (Ads Lib)</string>
     <string name="developer_checklist_play_services_ads" translatable="false">Google Play Services Ads</string>
     <string name="developer_checklist_gdpr_module" translatable="false">Module Update GDPR</string>
     <string name="developer_checklist_adjust_token" translatable="false">Adjust Token</string>

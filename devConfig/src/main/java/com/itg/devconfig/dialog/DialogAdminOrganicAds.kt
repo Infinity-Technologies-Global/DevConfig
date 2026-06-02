@@ -8,7 +8,7 @@ import android.graphics.Color
 import android.view.Window
 import android.widget.Toast
 import androidx.core.graphics.drawable.toDrawable
-import com.ads.nkh.util.SharePreferenceUtils
+import com.ads.module.util.SharePreferenceUtils
 import com.itg.devconfig.DevConfigRouter
 import com.itg.devconfig.R
 import com.itg.devconfig.databinding.DialogAdminOrganicAdsBinding
