@@ -16,6 +16,12 @@ import com.itg.devconfig.utils.click
 
 object DialogAdminOrganicAds {
 
+    private var onAdminAdToggleListener: ((Boolean) -> Unit)? = null
+
+    fun setOnAdminAdToggleListener(listener: ((Boolean) -> Unit)?) {
+        onAdminAdToggleListener = listener
+    }
+
     fun show(context: Context) {
         val activity = context.findActivity() ?: return
         if (activity.isFinishing || activity.isDestroyed) return
@@ -27,6 +33,7 @@ object DialogAdminOrganicAds {
         dialog.setCancelable(false)
 
         syncSwitchFromPreference(context, binding)
+        val initialUnlimitedAdsEnabled = binding.switchUnlimitedAds.isChecked
 
         binding.btnChecklist.click {
             dialog.dismiss()
@@ -36,6 +43,9 @@ object DialogAdminOrganicAds {
         binding.btnApply.click {
             val unlimitedAdsEnabled = binding.switchUnlimitedAds.isChecked
             SharePreferenceUtils.setIsOrganic(context, !unlimitedAdsEnabled)
+            if (unlimitedAdsEnabled != initialUnlimitedAdsEnabled) {
+                onAdminAdToggleListener?.invoke(unlimitedAdsEnabled)
+            }
 
             val messageRes = if (unlimitedAdsEnabled) {
                 R.string.txt_admin_ads_unlimited_enabled

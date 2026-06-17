@@ -11,7 +11,8 @@ import com.itg.devconfig.dialog.DialogAdminOrganicAds
 @SuppressLint("ClickableViewAccessibility")
 fun View.setOnAdminAdToggleListener(
     targetTapCount: Int = 10,
-    tapTimeout: Long = 4000L
+    tapTimeout: Long = 4000L,
+    onAdminAdToggled: ((Boolean) -> Unit)? = null
 ) {
     var tapCount = 0
     val handler = Handler(Looper.getMainLooper())
@@ -27,6 +28,7 @@ fun View.setOnAdminAdToggleListener(
 
             if (tapCount == targetTapCount) {
                 tapCount = 0
+                DialogAdminOrganicAds.setOnAdminAdToggleListener(onAdminAdToggled)
                 DialogAdminOrganicAds.show(context)
             } else {
                 handler.postDelayed(resetTapCountRunnable, tapTimeout)
