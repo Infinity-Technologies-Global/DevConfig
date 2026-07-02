@@ -10,6 +10,7 @@ int color textPrimary 0x0
 int color white 0x0
 int drawable bg_build_badge_debug 0x0
 int drawable bg_build_badge_release 0x0
+int drawable bg_button_primary 0x0
 int drawable bg_developer_checklist_section 0x0
 int drawable bg_developer_checklist_table_header 0x0
 int drawable bg_dialog_developer_accent 0x0

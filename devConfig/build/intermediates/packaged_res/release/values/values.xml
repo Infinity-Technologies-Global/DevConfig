@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="black">#FF000000</color>
     <color name="colorDisable">#bcbcbc</color>
     <color name="color_9E9E9E">#9E9E9E</color>
@@ -32,7 +32,7 @@
     <string name="developer_checklist_mediation_ready" translatable="false">READY</string>
     <string name="developer_checklist_mediation_sdk_only" translatable="false">SDK ONLY</string>
     <string name="developer_checklist_na" translatable="false">N/A</string>
-    <string name="developer_checklist_nkh_studio" translatable="false">NKH-Studio (Ads Lib)</string>
+    <string name="developer_checklist_nkh_studio" translatable="false">Erain-Ads-Version (Ads Lib)</string>
     <string name="developer_checklist_play_services_ads" translatable="false">Google Play Services Ads</string>
     <string name="developer_checklist_section_ad_release" translatable="false">Ad Config — Release (%1$s)</string>
     <string name="developer_checklist_section_item_count" translatable="false">%1$d</string>
@@ -51,6 +51,13 @@
     <string name="txt_show_checklist_option" translatable="false">Show Checklist option</string>
     <style name="DevConfigDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:forceDarkAllowed" ns1:targetApi="29">false</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="colorPrimary">@color/color_main</item>
+        <item name="colorAccent">@color/color_main</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/color_9E9E9E</item>
     </style>
     <style name="DevConfigTextBold" parent="DevConfigTextRegular">
         <item name="android:textStyle">bold</item>
@@ -61,8 +68,18 @@
         <item name="android:textColor">@color/textPrimary</item>
         <item name="android:includeFontPadding">false</item>
     </style>
-    <style name="ThemeDevConfig" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="ThemeDevConfig" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@color/color_bg_main</item>
+        <item name="android:forceDarkAllowed" ns1:targetApi="29">false</item>
+        <item name="android:colorBackground">@color/color_bg_main</item>
+        <item name="backgroundColor">@color/color_bg_main</item>
+        <item name="colorPrimary">@color/color_main</item>
+        <item name="colorAccent">@color/color_main</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/color_9E9E9E</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/color_bg_main</item>
+        <item name="android:navigationBarColor">@color/white</item>
     </style>
     <style name="text_bold_10" parent="DevConfigTextBold">
         <item name="android:textSize">@dimen/_10ssp</item>

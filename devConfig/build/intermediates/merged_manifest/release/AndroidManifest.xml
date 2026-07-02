@@ -8,6 +8,7 @@
         <activity
             android:name="com.itg.devconfig.ui.DeveloperChecklistActivity"
             android:exported="false"
+            android:forceDarkAllowed="false"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeDevConfig" />
     </application>

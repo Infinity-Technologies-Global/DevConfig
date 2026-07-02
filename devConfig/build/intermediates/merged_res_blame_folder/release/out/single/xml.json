@@ -1,34 +1,38 @@
 [
     {
-        "merged": "com.itg.devconfig.devConfig-merged_res-73:/xml/m3expressive_button_shape_state_list.xml",
-        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/xml/m3expressive_button_shape_state_list.xml"
+        "merged": "com.itg.devconfig.devConfig-merged_res-71:/xml/standalone_badge_gravity_bottom_start.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.2.1-33:/xml/standalone_badge_gravity_bottom_start.xml"
     },
     {
-        "merged": "com.itg.devconfig.devConfig-merged_res-73:/xml/com_android_billingclient_phenotype.xml",
-        "source": "com.itg.devconfig.devConfig-billing-8.3.0-10:/xml/com_android_billingclient_phenotype.xml"
+        "merged": "com.itg.devconfig.devConfig-merged_res-71:/xml/standalone_badge_offset.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.2.1-33:/xml/standalone_badge_offset.xml"
     },
     {
-        "merged": "com.itg.devconfig.devConfig-merged_res-73:/xml/m3expressive_connected_buttons_inner_corner_size_state_list.xml",
-        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/xml/m3expressive_connected_buttons_inner_corner_size_state_list.xml"
+        "merged": "com.itg.devconfig.devConfig-merged_res-71:/xml/network_security_config.xml",
+        "source": "com.itg.devconfig.devConfig-ERain-Studio-1.7-48:/xml/network_security_config.xml"
     },
     {
-        "merged": "com.itg.devconfig.devConfig-merged_res-73:/xml/m3_button_group_child_size_change.xml",
-        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/xml/m3_button_group_child_size_change.xml"
+        "merged": "com.itg.devconfig.devConfig-merged_res-71:/xml/standalone_badge_gravity_top_start.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.2.1-33:/xml/standalone_badge_gravity_top_start.xml"
     },
     {
-        "merged": "com.itg.devconfig.devConfig-merged_res-73:/xml/network_security_config.xml",
-        "source": "com.itg.devconfig.devConfig-NKH-Studio-5.8-23:/xml/network_security_config.xml"
+        "merged": "com.itg.devconfig.devConfig-merged_res-71:/xml/standalone_badge_gravity_bottom_end.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.2.1-33:/xml/standalone_badge_gravity_bottom_end.xml"
     },
     {
-        "merged": "com.itg.devconfig.devConfig-merged_res-73:/xml/image_share_filepaths.xml",
-        "source": "com.itg.devconfig.devConfig-browser-1.8.0-68:/xml/image_share_filepaths.xml"
+        "merged": "com.itg.devconfig.devConfig-merged_res-71:/xml/standalone_badge.xml",
+        "source": "com.itg.devconfig.devConfig-material-1.2.1-33:/xml/standalone_badge.xml"
     },
     {
-        "merged": "com.itg.devconfig.devConfig-merged_res-73:/xml/ad_services_config.xml",
-        "source": "com.itg.devconfig.devConfig-facebook-core-18.2.3-7:/xml/ad_services_config.xml"
+        "merged": "com.itg.devconfig.devConfig-merged_res-71:/xml/ad_services_config.xml",
+        "source": "com.itg.devconfig.devConfig-facebook-core-18.2.3-6:/xml/ad_services_config.xml"
     },
     {
-        "merged": "com.itg.devconfig.devConfig-merged_res-73:/xml/m3_split_button_inner_corner_size_state_list.xml",
-        "source": "com.itg.devconfig.devConfig-material-1.13.0-38:/xml/m3_split_button_inner_corner_size_state_list.xml"
+        "merged": "com.itg.devconfig.devConfig-merged_res-71:/xml/image_share_filepaths.xml",
+        "source": "com.itg.devconfig.devConfig-browser-1.8.0-66:/xml/image_share_filepaths.xml"
+    },
+    {
+        "merged": "com.itg.devconfig.devConfig-merged_res-71:/xml/com_android_billingclient_phenotype.xml",
+        "source": "com.itg.devconfig.devConfig-billing-8.3.0-9:/xml/com_android_billingclient_phenotype.xml"
     }
 ]

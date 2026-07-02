@@ -40,8 +40,8 @@ public class DialogAdminOrganicAdsBindingImpl extends DialogAdminOrganicAdsBindi
     }
     private DialogAdminOrganicAdsBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (com.google.android.material.button.MaterialButton) bindings[12]
-            , (com.google.android.material.button.MaterialButton) bindings[11]
+            , (android.widget.TextView) bindings[12]
+            , (android.widget.TextView) bindings[11]
             , (androidx.cardview.widget.CardView) bindings[1]
             , (android.view.View) bindings[10]
             , (androidx.appcompat.widget.AppCompatImageView) bindings[3]

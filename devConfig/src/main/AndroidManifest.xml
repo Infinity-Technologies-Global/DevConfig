@@ -5,6 +5,7 @@
         <activity
             android:name=".ui.DeveloperChecklistActivity"
             android:exported="false"
+            android:forceDarkAllowed="false"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeDevConfig" />
     </application>

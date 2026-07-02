@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.itg.devconfig.devConfig-merged_res-73:/values-id/values-id.xml",
+            "outputFile": "com.itg.devconfig.devConfig-merged_res-71:/values-id/values-id.xml",
             "map": [
                 {
-                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/af906a8b5f63d7ddb5e7a98fdcffac1b/transformed/pag-sdk-ad-unfat-8004-20260421195402-release/res/values-id/values-id.xml",
+                    "source": "/Users/admin/.gradle/caches/8.13/transforms/af906a8b5f63d7ddb5e7a98fdcffac1b/transformed/pag-sdk-ad-unfat-8004-20260421195402-release/res/values-id/values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/1a16105dcc45e79a411c1033ddc70783/transformed/facebook-common-18.2.3/res/values-id/values-id.xml",
+                    "source": "/Users/admin/.gradle/caches/8.13/transforms/1a16105dcc45e79a411c1033ddc70783/transformed/facebook-common-18.2.3/res/values-id/values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -33,10 +33,10 @@
             ]
         },
         {
-            "outputFile": "com.itg.devconfig.devConfig-mergeReleaseResources-71:/values-id/values-id.xml",
+            "outputFile": "com.itg.devconfig.devConfig-mergeReleaseResources-69:/values-id/values-id.xml",
             "map": [
                 {
-                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/af906a8b5f63d7ddb5e7a98fdcffac1b/transformed/pag-sdk-ad-unfat-8004-20260421195402-release/res/values-id/values-id.xml",
+                    "source": "/Users/admin/.gradle/caches/8.13/transforms/af906a8b5f63d7ddb5e7a98fdcffac1b/transformed/pag-sdk-ad-unfat-8004-20260421195402-release/res/values-id/values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -53,7 +53,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/1a16105dcc45e79a411c1033ddc70783/transformed/facebook-common-18.2.3/res/values-id/values-id.xml",
+                    "source": "/Users/admin/.gradle/caches/8.13/transforms/1a16105dcc45e79a411c1033ddc70783/transformed/facebook-common-18.2.3/res/values-id/values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

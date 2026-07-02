@@ -2,7 +2,6 @@ package com.itg.devconfig.ui
 
 import android.content.Context
 import android.content.pm.PackageManager
-import com.itg.devconfig.BuildConfig
 import com.itg.devconfig.DevConfig
 import com.itg.devconfig.R
 import com.itg.devconfig.utils.MediationCheckUtils

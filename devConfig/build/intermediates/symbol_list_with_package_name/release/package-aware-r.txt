@@ -11,6 +11,7 @@ color textPrimary
 color white
 drawable bg_build_badge_debug
 drawable bg_build_badge_release
+drawable bg_button_primary
 drawable bg_developer_checklist_section
 drawable bg_developer_checklist_table_header
 drawable bg_dialog_developer_accent
