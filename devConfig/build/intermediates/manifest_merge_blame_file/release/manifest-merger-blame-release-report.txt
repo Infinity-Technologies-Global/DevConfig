@@ -5,17 +5,19 @@
 5    <uses-sdk android:minSdkVersion="24" />
 6
 7    <application>
-7-->/Users/ducanh/Project/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:4:5-10:19
+7-->/Users/admin/Developments/Files/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:4:5-11:19
 8        <activity
-8-->/Users/ducanh/Project/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:5:9-9:53
+8-->/Users/admin/Developments/Files/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:5:9-10:53
 9            android:name="com.itg.devconfig.ui.DeveloperChecklistActivity"
-9-->/Users/ducanh/Project/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:6:13-58
+9-->/Users/admin/Developments/Files/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:6:13-58
 10            android:exported="false"
-10-->/Users/ducanh/Project/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:7:13-37
-11            android:screenOrientation="portrait"
-11-->/Users/ducanh/Project/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:8:13-49
-12            android:theme="@style/ThemeDevConfig" />
-12-->/Users/ducanh/Project/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:9:13-50
-13    </application>
-14
-15</manifest>
+10-->/Users/admin/Developments/Files/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:7:13-37
+11            android:forceDarkAllowed="false"
+11-->/Users/admin/Developments/Files/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:8:13-45
+12            android:screenOrientation="portrait"
+12-->/Users/admin/Developments/Files/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:9:13-49
+13            android:theme="@style/ThemeDevConfig" />
+13-->/Users/admin/Developments/Files/Infinity/DevConfig/devConfig/src/main/AndroidManifest.xml:10:13-50
+14    </application>
+15
+16</manifest>

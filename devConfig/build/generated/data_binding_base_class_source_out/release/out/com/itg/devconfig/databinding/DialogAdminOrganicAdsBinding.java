@@ -13,17 +13,16 @@ import androidx.appcompat.widget.AppCompatImageView;
 import androidx.cardview.widget.CardView;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import com.google.android.material.button.MaterialButton;
 import com.itg.devconfig.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class DialogAdminOrganicAdsBinding extends ViewDataBinding {
   @NonNull
-  public final MaterialButton btnApply;
+  public final TextView btnApply;
 
   @NonNull
-  public final MaterialButton btnChecklist;
+  public final TextView btnChecklist;
 
   @NonNull
   public final CardView cardDialog;
@@ -56,7 +55,7 @@ public abstract class DialogAdminOrganicAdsBinding extends ViewDataBinding {
   public final View viewAccent;
 
   protected DialogAdminOrganicAdsBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      MaterialButton btnApply, MaterialButton btnChecklist, CardView cardDialog, View divider,
+      TextView btnApply, TextView btnChecklist, CardView cardDialog, View divider,
       AppCompatImageView imvIcon, LinearLayout layoutSwitchRow, Switch switchUnlimitedAds,
       TextView tvSubtitle, TextView tvTitle, TextView tvUnlimitedAdsHint,
       TextView tvUnlimitedAdsLabel, View viewAccent) {

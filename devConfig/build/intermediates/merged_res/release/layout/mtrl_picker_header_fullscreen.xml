@@ -18,10 +18,9 @@
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
-  android:layout_height="wrap_content">
+  android:layout_height="@dimen/mtrl_calendar_header_height_fullscreen">
 
   <LinearLayout
-    android:id="@+id/fullscreen_header"
     style="?attr/materialCalendarHeaderLayout"
     android:layout_width="match_parent"
     android:layout_height="@dimen/mtrl_calendar_header_height_fullscreen"
@@ -36,7 +35,7 @@
 
     <com.google.android.material.button.MaterialButton
       android:id="@+id/cancel_button"
-      style="?attr/materialCalendarHeaderCancelButton"
+      style="@style/Widget.MaterialComponents.Button.TextButton"
       android:layout_width="@dimen/mtrl_min_touch_target_size"
       android:layout_height="@dimen/mtrl_min_touch_target_size"
       android:layout_gravity="top"
@@ -45,7 +44,9 @@
       android:insetTop="0dp"
       android:insetBottom="0dp"
       android:padding="12dp"
-      app:icon="@drawable/material_ic_clear_black_24dp"/>
+      app:icon="@drawable/material_ic_clear_black_24dp"
+      app:iconTint="?attr/colorOnPrimary"
+      app:rippleColor="@color/mtrl_btn_ripple_color"/>
 
     <FrameLayout
       android:id="@+id/mtrl_picker_header_title_and_selection"
@@ -53,10 +54,7 @@
       android:layout_height="match_parent"
       android:layout_weight="1"
       android:paddingStart="@dimen/mtrl_calendar_header_text_padding"
-      android:paddingLeft="@dimen/mtrl_calendar_header_text_padding"
-      android:importantForAccessibility="yes"
-      android:focusable="false"
-      android:focusableInTouchMode="false">
+      android:paddingLeft="@dimen/mtrl_calendar_header_text_padding">
 
       <TextView
         android:id="@+id/mtrl_picker_title_text"
@@ -74,6 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|start"
         android:gravity="start|bottom"
+        android:paddingBottom="@dimen/mtrl_calendar_pre_l_text_clip_padding"
         app:firstBaselineToTopHeight="@dimen/mtrl_calendar_selection_baseline_to_top_fullscreen"
         app:lineHeight="@dimen/mtrl_calendar_header_selection_line_height"/>
     </FrameLayout>

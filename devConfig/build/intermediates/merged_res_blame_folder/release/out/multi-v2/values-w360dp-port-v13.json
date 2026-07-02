@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.itg.devconfig.devConfig-merged_res-73:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.itg.devconfig.devConfig-merged_res-71:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/81adf2f58d5f96e6c8b34a11d07079df/transformed/material-1.13.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+                    "source": "/Users/admin/.gradle/caches/8.13/transforms/753dc83c7bc7823cd34ee0c8059aa370/transformed/material-1.2.1/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "com.itg.devconfig.devConfig-mergeReleaseResources-71:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.itg.devconfig.devConfig-mergeReleaseResources-69:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ducanh/.gradle/caches/8.13/transforms/81adf2f58d5f96e6c8b34a11d07079df/transformed/material-1.13.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+                    "source": "/Users/admin/.gradle/caches/8.13/transforms/753dc83c7bc7823cd34ee0c8059aa370/transformed/material-1.2.1/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
