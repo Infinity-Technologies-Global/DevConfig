@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-
+    <!-- Giữ nguyên theme sáng kể cả khi hệ thống/app ở chế độ tối -->
     <style name="ThemeDevConfig" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@color/color_bg_main</item>
         <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>

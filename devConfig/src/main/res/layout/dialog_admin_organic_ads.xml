@@ -118,6 +118,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_8sdp"
                         android:thumbTint="@color/color_main"
+                        android:trackTint="@color/color_bg_main"
                         tools:ignore="UseSwitchCompatOrMaterialXml" />
                 </LinearLayout>
 
@@ -132,28 +133,29 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/layoutSwitchRow" />
 
-                <Button
+                <TextView
                     android:id="@+id/btnChecklist"
+                    style="@style/text_bold_14"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/_16sdp"
                     android:layout_marginTop="@dimen/_16sdp"
                     android:background="@drawable/bg_shape_outline"
+                    android:clickable="true"
                     android:drawableStart="@drawable/ic_policy"
-                    android:paddingStart="20dp"
                     android:drawablePadding="@dimen/_8sdp"
                     android:drawableTint="@color/color_main"
+                    android:focusable="true"
                     android:gravity="center"
                     android:minHeight="@dimen/_44sdp"
-                    android:stateListAnimator="@null"
+                    android:paddingHorizontal="@dimen/_16sdp"
                     android:text="@string/txt_show_checklist_option"
-                    android:textAllCaps="false"
                     android:textColor="@color/color_main"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/divider" />
 
-                <Button
+                <TextView
                     android:id="@+id/btnApply"
                     style="@style/text_bold_14"
                     android:layout_width="0dp"
@@ -162,12 +164,12 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:layout_marginBottom="@dimen/_20sdp"
                     android:background="@drawable/bg_button_primary"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:gravity="center"
                     android:minHeight="@dimen/_44sdp"
-                    android:stateListAnimator="@null"
+                    android:paddingHorizontal="@dimen/_16sdp"
                     android:text="@string/txt_apply"
-                    android:textAlignment="center"
-                    android:textAllCaps="false"
                     android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"

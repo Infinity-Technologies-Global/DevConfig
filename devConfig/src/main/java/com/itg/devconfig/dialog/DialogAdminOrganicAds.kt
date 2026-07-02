@@ -1,16 +1,18 @@
 package com.itg.devconfig.dialog
 
 import android.app.Activity
-import android.app.Dialog
 import android.content.Context
 import android.content.ContextWrapper
 import android.graphics.Color
+import android.view.LayoutInflater
 import android.view.Window
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDialog
 import androidx.core.graphics.drawable.toDrawable
 import com.ads.module.util.SharePreferenceUtils
 import com.itg.devconfig.DevConfigRouter
 import com.itg.devconfig.R
+import com.itg.devconfig.ui.DevConfigTheme
 import com.itg.devconfig.databinding.DialogAdminOrganicAdsBinding
 import com.itg.devconfig.utils.click
 
@@ -26,10 +28,12 @@ object DialogAdminOrganicAds {
         val activity = context.findActivity() ?: return
         if (activity.isFinishing || activity.isDestroyed) return
 
-        val binding = DialogAdminOrganicAdsBinding.inflate(activity.layoutInflater)
-        val dialog = Dialog(activity, R.style.DevConfigDialog)
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        val themedContext = DevConfigTheme.wrap(activity)
+        val binding = DialogAdminOrganicAdsBinding.inflate(LayoutInflater.from(themedContext))
+        val dialog = AppCompatDialog(themedContext, R.style.DevConfigDialog)
+        dialog.supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
         dialog.window?.setBackgroundDrawable(Color.TRANSPARENT.toDrawable())
+        DevConfigTheme.applyLightWindow(dialog.window)
         dialog.setCancelable(false)
 
         syncSwitchFromPreference(context, binding)
