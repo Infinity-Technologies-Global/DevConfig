@@ -12,6 +12,11 @@ internal object DevConfigTheme {
     fun wrap(
         context: Context,
         @StyleRes themeRes: Int = R.style.ThemeDevConfig
+    ): Context = ContextThemeWrapper(context, themeRes)
+
+    fun wrapActivityBase(
+        context: Context,
+        @StyleRes themeRes: Int = R.style.ThemeDevConfig
     ): Context {
         val lightConfiguration = Configuration(context.resources.configuration).apply {
             uiMode = (uiMode and Configuration.UI_MODE_NIGHT_MASK.inv()) or Configuration.UI_MODE_NIGHT_NO

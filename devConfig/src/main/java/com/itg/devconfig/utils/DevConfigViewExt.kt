@@ -4,9 +4,18 @@ import android.annotation.SuppressLint
 import android.os.Handler
 import android.os.Looper
 import android.os.SystemClock
+import android.app.Activity
+import android.content.Context
+import android.content.ContextWrapper
 import android.view.MotionEvent
 import android.view.View
 import com.itg.devconfig.dialog.DialogAdminOrganicAds
+
+private tailrec fun Context.findHostContext(): Context? = when (this) {
+    is Activity -> if (isFinishing || isDestroyed) null else this
+    is ContextWrapper -> baseContext.findHostContext()
+    else -> null
+}
 
 @SuppressLint("ClickableViewAccessibility")
 fun View.setOnAdminAdToggleListener(
@@ -29,7 +38,10 @@ fun View.setOnAdminAdToggleListener(
             if (tapCount == targetTapCount) {
                 tapCount = 0
                 DialogAdminOrganicAds.setOnAdminAdToggleListener(onAdminAdToggled)
-                DialogAdminOrganicAds.show(context)
+                val hostContext = context.findHostContext()
+                if (hostContext != null) {
+                    DialogAdminOrganicAds.show(hostContext)
+                }
             } else {
                 handler.postDelayed(resetTapCountRunnable, tapTimeout)
             }

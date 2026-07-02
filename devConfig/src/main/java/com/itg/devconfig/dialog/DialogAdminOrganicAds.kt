@@ -28,9 +28,9 @@ object DialogAdminOrganicAds {
         val activity = context.findActivity() ?: return
         if (activity.isFinishing || activity.isDestroyed) return
 
-        val themedContext = DevConfigTheme.wrap(activity)
-        val binding = DialogAdminOrganicAdsBinding.inflate(LayoutInflater.from(themedContext))
-        val dialog = AppCompatDialog(themedContext, R.style.DevConfigDialog)
+        val inflater = LayoutInflater.from(DevConfigTheme.wrap(activity))
+        val binding = DialogAdminOrganicAdsBinding.inflate(inflater)
+        val dialog = AppCompatDialog(activity, R.style.DevConfigDialog)
         dialog.supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
         dialog.window?.setBackgroundDrawable(Color.TRANSPARENT.toDrawable())
         DevConfigTheme.applyLightWindow(dialog.window)

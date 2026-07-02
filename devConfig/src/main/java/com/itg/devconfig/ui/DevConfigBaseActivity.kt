@@ -14,7 +14,7 @@ abstract class DevConfigBaseActivity<VB : ViewDataBinding> : AppCompatActivity()
     protected abstract fun getLayoutId(): Int
 
     override fun attachBaseContext(newBase: Context) {
-        super.attachBaseContext(DevConfigTheme.wrap(newBase))
+        super.attachBaseContext(DevConfigTheme.wrapActivityBase(newBase))
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
