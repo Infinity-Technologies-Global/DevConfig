@@ -10,7 +10,7 @@ object DevConfig {
 
     fun init(
         context: Context,
-        nkhStudioVersion: String,
+        nextGenVersion: String,
         playServicesAdsVersion: String,
         gdprModuleVersion: String
     ) {
@@ -24,7 +24,7 @@ object DevConfig {
             facebookAppId = context.getHostString("facebook_app_id"),
             facebookClientToken = context.getHostString("facebook_client_token"),
             tiktokEventToken = context.getHostString("event_token"),
-            nkhStudioVersion = nkhStudioVersion,
+            nextGenVersion = nextGenVersion,
             playServicesAdsVersion = playServicesAdsVersion,
             gdprModuleVersion = gdprModuleVersion
         )

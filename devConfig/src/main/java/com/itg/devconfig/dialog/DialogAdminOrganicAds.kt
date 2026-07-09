@@ -9,12 +9,12 @@ import android.view.Window
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatDialog
 import androidx.core.graphics.drawable.toDrawable
-import com.ads.nkh.util.SharePreferenceUtils
 import com.itg.devconfig.DevConfigRouter
 import com.itg.devconfig.R
 import com.itg.devconfig.ui.DevConfigTheme
 import com.itg.devconfig.databinding.DialogAdminOrganicAdsBinding
 import com.itg.devconfig.utils.click
+import com.admob.next.gen.core.SharePreferenceUtils
 
 object DialogAdminOrganicAds {
 
@@ -46,7 +46,7 @@ object DialogAdminOrganicAds {
 
         binding.btnApply.click {
             val unlimitedAdsEnabled = binding.switchUnlimitedAds.isChecked
-            SharePreferenceUtils.setIsOrganic(context, !unlimitedAdsEnabled)
+            SharePreferenceUtils.setOrganic(context, !unlimitedAdsEnabled)
             if (unlimitedAdsEnabled != initialUnlimitedAdsEnabled) {
                 onAdminAdToggleListener?.invoke(unlimitedAdsEnabled)
             }
@@ -68,7 +68,7 @@ object DialogAdminOrganicAds {
         context: Context,
         binding: DialogAdminOrganicAdsBinding
     ) {
-        val isOrganic = SharePreferenceUtils.getIsOrganic(context)
+        val isOrganic = SharePreferenceUtils.isOrganic(context)
         binding.switchUnlimitedAds.isChecked = !isOrganic
     }
 

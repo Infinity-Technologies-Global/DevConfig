@@ -24,7 +24,7 @@ object DeveloperChecklistRepository {
             children = listOf(
                 infoRow(
                     context.getString(R.string.developer_checklist_nkh_studio),
-                    DevConfig.requireAppConfig().nkhStudioVersion
+                    DevConfig.requireAppConfig().nextGenVersion
                 ),
                 infoRow(
                     context.getString(R.string.developer_checklist_play_services_ads),
