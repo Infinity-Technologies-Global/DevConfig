@@ -3,9 +3,11 @@ package com.itg.devconfig.utils
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.initialization.AdapterStatus
-import com.google.android.gms.ads.initialization.InitializationStatus
+import com.google.android.libraries.ads.mobile.sdk.MobileAds
+import com.google.android.libraries.ads.mobile.sdk.common.RequestConfiguration
+import com.google.android.libraries.ads.mobile.sdk.initialization.AdapterStatus
+import com.google.android.libraries.ads.mobile.sdk.initialization.InitializationConfig
+import com.google.android.libraries.ads.mobile.sdk.initialization.InitializationStatus
 import com.itg.devconfig.R
 import java.util.Locale
 import java.util.concurrent.CountDownLatch
@@ -101,7 +103,10 @@ object MediationCheckUtils {
         onResult: (List<MediationNetworkStatus>) -> Unit
     ) {
         runOnMainThread {
-            MobileAds.initialize(context) { initializationStatus ->
+            MobileAds.initialize(
+                context,
+                InitializationConfig.Builder(getApplicationId(context)).build(),
+            ) { initializationStatus->
                 onResult(buildStatuses(initializationStatus))
             }
         }
@@ -205,8 +210,8 @@ object MediationCheckUtils {
 
     private fun mapInitializationState(status: AdapterStatus): MediationIntegrationState {
         return when (status.initializationState) {
-            AdapterStatus.State.READY -> MediationIntegrationState.READY
-            AdapterStatus.State.NOT_READY -> MediationIntegrationState.NOT_READY
+            AdapterStatus.InitializationState.COMPLETE -> MediationIntegrationState.READY
+            AdapterStatus.InitializationState.FAILED -> MediationIntegrationState.NOT_READY
             else -> MediationIntegrationState.NOT_READY
         }
     }
@@ -244,6 +249,15 @@ object MediationCheckUtils {
             block()
         } else {
             Handler(Looper.getMainLooper()).post(block)
+        }
+    }
+
+    fun getApplicationId(context: Context): String {
+        val resId = context.resources.getIdentifier("app_id", "string", context.packageName)
+        return if (resId != 0) {
+            context.getString(resId)
+        } else {
+            "ca-app-pub-3940256099942544~3347511713"
         }
     }
 }

@@ -7,7 +7,7 @@ data class DevConfigAppConfig(
     val facebookAppId: String,
     val facebookClientToken: String,
     val tiktokEventToken: String,
-    val nextGenVersion: String,
-    val playServicesAdsVersion: String,
+    val nextGenAdSdk: String,
+    val adsMobileNextGenSDK: String,
     val gdprModuleVersion: String
 )

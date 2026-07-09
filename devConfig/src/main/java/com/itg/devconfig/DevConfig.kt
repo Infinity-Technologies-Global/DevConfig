@@ -24,8 +24,8 @@ object DevConfig {
             facebookAppId = context.getHostString("facebook_app_id"),
             facebookClientToken = context.getHostString("facebook_client_token"),
             tiktokEventToken = context.getHostString("event_token"),
-            nextGenVersion = nextGenVersion,
-            playServicesAdsVersion = playServicesAdsVersion,
+            nextGenAdSdk = nextGenVersion,
+            adsMobileNextGenSDK = playServicesAdsVersion,
             gdprModuleVersion = gdprModuleVersion
         )
     }

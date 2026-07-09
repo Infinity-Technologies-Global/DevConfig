@@ -24,11 +24,11 @@ object DeveloperChecklistRepository {
             children = listOf(
                 infoRow(
                     context.getString(R.string.developer_checklist_nkh_studio),
-                    DevConfig.requireAppConfig().nextGenVersion
+                    DevConfig.requireAppConfig().nextGenAdSdk
                 ),
                 infoRow(
                     context.getString(R.string.developer_checklist_play_services_ads),
-                    DevConfig.requireAppConfig().playServicesAdsVersion
+                    DevConfig.requireAppConfig().adsMobileNextGenSDK
                 ),
                 infoRow(
                     context.getString(R.string.developer_checklist_gdpr_module),
