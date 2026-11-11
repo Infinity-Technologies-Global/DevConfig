@@ -3,9 +3,6 @@ package com.itg.devconfig.utils
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.initialization.AdapterStatus
-import com.google.android.gms.ads.initialization.InitializationStatus
 import com.itg.devconfig.R
 import java.util.Locale
 import java.util.concurrent.CountDownLatch
@@ -35,10 +32,15 @@ object MediationCheckUtils {
         val sdkClassNames: List<String> = emptyList()
     )
 
+    private const val MOBILE_ADS_CLASS = "com.google.android.gms.ads.MobileAds"
+    private const val INIT_LISTENER_CLASS =
+        "com.google.android.gms.ads.initialization.OnInitializationCompleteListener"
+
     private val knownNetworks = listOf(
         MediationNetworkProbe(
             displayName = "AdMob (Google)",
-            adapterKeywords = listOf("admob", "AdMobAdapter", "GoogleMobileAds")
+            adapterKeywords = listOf("admob", "AdMobAdapter", "GoogleMobileAds"),
+            sdkClassNames = listOf(MOBILE_ADS_CLASS)
         ),
         MediationNetworkProbe(
             displayName = "Meta Audience Network",
@@ -101,8 +103,16 @@ object MediationCheckUtils {
         onResult: (List<MediationNetworkStatus>) -> Unit
     ) {
         runOnMainThread {
-            MobileAds.initialize(context) { initializationStatus ->
-                onResult(buildStatuses(initializationStatus))
+            if (!isGoogleMobileAdsAvailable()) {
+                onResult(buildClasspathOnlyStatuses())
+                return@runOnMainThread
+            }
+            try {
+                initializeMobileAds(context) { initializationStatus ->
+                    onResult(buildStatusesFromInitialization(initializationStatus))
+                }
+            } catch (t: Throwable) {
+                onResult(buildClasspathOnlyStatuses(errorDescription = t.message))
             }
         }
     }
@@ -134,8 +144,74 @@ object MediationCheckUtils {
         }
     }
 
-    private fun buildStatuses(initializationStatus: InitializationStatus): List<MediationNetworkStatus> {
-        val adapterMap = initializationStatus.adapterStatusMap
+    private fun isGoogleMobileAdsAvailable(): Boolean {
+        return isClassPresent(MOBILE_ADS_CLASS) && isClassPresent(INIT_LISTENER_CLASS)
+    }
+
+    private fun initializeMobileAds(
+        context: Context,
+        onInitialized: (Any) -> Unit
+    ) {
+        val mobileAdsClass = Class.forName(MOBILE_ADS_CLASS)
+        val listenerClass = Class.forName(INIT_LISTENER_CLASS)
+        val proxy = java.lang.reflect.Proxy.newProxyInstance(
+            listenerClass.classLoader,
+            arrayOf(listenerClass)
+        ) { _, method, args ->
+            if (method.name == "onInitializationComplete" && !args.isNullOrEmpty()) {
+                onInitialized(args[0])
+            }
+            null
+        }
+        val initializeMethod = mobileAdsClass.getMethod(
+            "initialize",
+            Context::class.java,
+            listenerClass
+        )
+        initializeMethod.invoke(null, context.applicationContext, proxy)
+    }
+
+    private fun buildClasspathOnlyStatuses(
+        errorDescription: String? = null
+    ): List<MediationNetworkStatus> {
+        val descriptionSuffix = errorDescription
+            ?.takeIf { it.isNotBlank() }
+            ?.let { " ($it)" }
+            .orEmpty()
+        return knownNetworks.map { probe ->
+            val sdkPresent = probe.sdkClassNames.any { isClassPresent(it) }
+            MediationNetworkStatus(
+                networkName = probe.displayName,
+                adapterClassName = "—",
+                integrationState = if (sdkPresent) {
+                    MediationIntegrationState.SDK_ONLY
+                } else {
+                    MediationIntegrationState.NOT_INTEGRATED
+                },
+                description = if (sdkPresent) {
+                    "SDK detected, Google Mobile Ads API unavailable$descriptionSuffix"
+                } else {
+                    "play-services-ads not found in app$descriptionSuffix"
+                },
+                isSdkOnClasspath = sdkPresent
+            )
+        }.sortedWith(
+            compareBy<MediationNetworkStatus> { it.integrationState.sortOrder() }
+                .thenBy { it.networkName.lowercase(Locale.getDefault()) }
+        )
+    }
+
+    @Suppress("UNCHECKED_CAST")
+    private fun buildStatusesFromInitialization(initializationStatus: Any): List<MediationNetworkStatus> {
+        val adapterMap = try {
+            val map = initializationStatus.javaClass
+                .getMethod("getAdapterStatusMap")
+                .invoke(initializationStatus) as? Map<String, Any>
+            map.orEmpty()
+        } catch (_: Throwable) {
+            emptyMap()
+        }
+
         val matchedKeys = mutableSetOf<String>()
         val results = mutableListOf<MediationNetworkStatus>()
 
@@ -159,8 +235,8 @@ object MediationCheckUtils {
                 networkName = resolveDisplayName(adapterClass),
                 adapterClassName = simplifyClassName(adapterClass),
                 integrationState = mapInitializationState(status),
-                description = status.description.orEmpty(),
-                latencyMs = status.latency.toLong(),
+                description = readStringProperty(status, "getDescription").orEmpty(),
+                latencyMs = readIntProperty(status, "getLatency").toLong(),
                 isSdkOnClasspath = true
             )
         }
@@ -172,7 +248,7 @@ object MediationCheckUtils {
     }
 
     private fun MediationNetworkProbe.toStatus(
-        matchedEntry: Map.Entry<String, AdapterStatus>?
+        matchedEntry: Map.Entry<String, Any>?
     ): MediationNetworkStatus {
         val sdkPresent = sdkClassNames.any { isClassPresent(it) }
         if (matchedEntry != null) {
@@ -181,8 +257,8 @@ object MediationCheckUtils {
                 networkName = displayName,
                 adapterClassName = simplifyClassName(matchedEntry.key),
                 integrationState = mapInitializationState(status),
-                description = status.description.orEmpty(),
-                latencyMs = status.latency.toLong(),
+                description = readStringProperty(status, "getDescription").orEmpty(),
+                latencyMs = readIntProperty(status, "getLatency").toLong(),
                 isSdkOnClasspath = true
             )
         }
@@ -203,11 +279,31 @@ object MediationCheckUtils {
         )
     }
 
-    private fun mapInitializationState(status: AdapterStatus): MediationIntegrationState {
-        return when (status.initializationState) {
-            AdapterStatus.State.READY -> MediationIntegrationState.READY
-            AdapterStatus.State.NOT_READY -> MediationIntegrationState.NOT_READY
-            else -> MediationIntegrationState.NOT_READY
+    private fun mapInitializationState(status: Any): MediationIntegrationState {
+        return try {
+            val state = status.javaClass.getMethod("getInitializationState").invoke(status)
+            when (state?.toString()) {
+                "READY" -> MediationIntegrationState.READY
+                else -> MediationIntegrationState.NOT_READY
+            }
+        } catch (_: Throwable) {
+            MediationIntegrationState.NOT_READY
+        }
+    }
+
+    private fun readStringProperty(target: Any, methodName: String): String? {
+        return try {
+            target.javaClass.getMethod(methodName).invoke(target) as? String
+        } catch (_: Throwable) {
+            null
+        }
+    }
+
+    private fun readIntProperty(target: Any, methodName: String): Int {
+        return try {
+            target.javaClass.getMethod(methodName).invoke(target) as? Int ?: 0
+        } catch (_: Throwable) {
+            0
         }
     }
 

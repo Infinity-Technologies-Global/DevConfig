@@ -29,12 +29,21 @@ class DeveloperChecklistActivity : DevConfigBaseActivity<ActivityDeveloperCheckl
     }
 
     private fun loadMediationStatuses() {
-        MediationCheckUtils.fetchMediationStatuses(this) { statuses ->
-            if (isFinishing || isDestroyed) return@fetchMediationStatuses
+        try {
+            MediationCheckUtils.fetchMediationStatuses(this) { statuses ->
+                if (isFinishing || isDestroyed) return@fetchMediationStatuses
+                checklistAdapter?.replaceItems(
+                    DeveloperChecklistRepository.buildChecklistItems(
+                        context = this,
+                        mediationStatuses = statuses
+                    )
+                )
+            }
+        } catch (_: Throwable) {
             checklistAdapter?.replaceItems(
                 DeveloperChecklistRepository.buildChecklistItems(
                     context = this,
-                    mediationStatuses = statuses
+                    mediationStatuses = emptyList()
                 )
             )
         }
