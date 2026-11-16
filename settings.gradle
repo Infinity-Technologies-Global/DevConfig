@@ -20,4 +20,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "DevConfig"
 include ':devConfig'
-include ':app'
+// Demo app is local-only; keep it out of JitPack publish builds
+if (System.getenv("JITPACK") == null) {
+    include ':app'
+}
