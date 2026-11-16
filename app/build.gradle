@@ -1,0 +1,66 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.itg.devconfig.demo'
+    compileSdk rootProject.ext.compile_sdk_version
+
+    defaultConfig {
+        applicationId "com.itg.devconfig.demo"
+        minSdk rootProject.ext.min_sdk_version
+        targetSdk rootProject.ext.compile_sdk_version
+        versionCode 1
+        versionName "1.0.0"
+
+        buildConfigField "String", "NKH_NEXTGEN_VERSION", "\"1.0.0\""
+        buildConfigField "String", "PLAY_SERVICES_ADS_VERSION", "\"N/A\""
+        buildConfigField "String", "GDPR_MODULE_VERSION", "\"2.0.2\""
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    buildFeatures {
+        dataBinding = true
+        buildConfig = true
+        viewBinding = true
+    }
+}
+
+dependencies {
+    implementation project(':devConfig')
+
+    implementation "androidx.core:core-ktx:$androidx_core_ktx_version"
+    implementation "androidx.appcompat:appcompat:$androidx_appcompat_version"
+    implementation "androidx.constraintlayout:constraintlayout:$androidx_constraintlayout_version"
+    implementation "androidx.activity:activity-ktx:1.9.3"
+
+    // App dùng đúng Ads NextGen (+ deps runtime của NextGen)
+    implementation 'com.github.trongluan99:NKH-NextGen:1.0.0'
+    implementation 'com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:1.2.1'
+    implementation "com.google.android.material:material:$androidx_material_version"
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.adjust.sdk:adjust-android:5.0.1'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.android.billingclient:billing-ktx:7.1.1'
+}
+
+configurations.configureEach {
+    exclude group: 'com.google.android.gms', module: 'play-services-ads'
+    exclude group: 'com.google.android.gms', module: 'play-services-ads-lite'
+}

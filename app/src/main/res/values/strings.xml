@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DevConfig Demo</string>
+    <string name="demo_title">DevConfig Demo</string>
+    <string name="demo_hint">Tap Language 10 times to open Developer Setting</string>
+    <string name="language">Language</string>
+    <string name="ads_lib_label">Ads SDK: NKH-NextGen 1.0.0</string>
+
+    <!-- Host strings used by DevConfig checklist -->
+    <string name="adjust_token">demo_adjust_token</string>
+    <string name="facebook_app_id">1234567890</string>
+    <string name="facebook_client_token">demo_fb_client_token</string>
+    <string name="event_token">demo_tiktok_event_token</string>
+</resources>

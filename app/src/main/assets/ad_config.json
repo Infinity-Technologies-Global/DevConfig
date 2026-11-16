@@ -1,0 +1,14 @@
+{
+  "banner_home": {
+    "id": "ca-app-pub-3940256099942544/6300978111",
+    "isEnable": true
+  },
+  "inter_splash": {
+    "id": "ca-app-pub-3940256099942544/1033173712",
+    "isEnable": true
+  },
+  "native_language": {
+    "id": "ca-app-pub-3940256099942544/2247696110",
+    "isEnable": false
+  }
+}

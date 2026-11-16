@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DevConfigDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#0573B8</item>
+        <item name="colorAccent">#3397FF</item>
+        <item name="android:statusBarColor">#F4F4F4</item>
+        <item name="android:windowBackground">#F4F4F4</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
