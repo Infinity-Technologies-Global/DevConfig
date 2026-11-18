@@ -23,7 +23,7 @@ object DevConfig {
             adjustToken = context.getHostString("adjust_token"),
             facebookAppId = context.getHostString("facebook_app_id"),
             facebookClientToken = context.getHostString("facebook_client_token"),
-            tiktokEventToken = context.getHostString("event_token"),
+            tiktokEventToken = context.getHostString("event_token", "tiktok_token"),
             nkhStudioVersion = nkhStudioVersion,
             playServicesAdsVersion = playServicesAdsVersion,
             gdprModuleVersion = gdprModuleVersion
@@ -35,9 +35,15 @@ object DevConfig {
             ?: error("DevConfig.init() must be called before using developer settings.")
     }
 
-    private fun Context.getHostString(name: String): String {
-        val id = resources.getIdentifier(name, "string", packageName)
-        return if (id != 0) getString(id) else "N/A"
+    private fun Context.getHostString(vararg names: String): String {
+        for (name in names) {
+            val id = resources.getIdentifier(name, "string", packageName)
+            if (id != 0) {
+                val value = getString(id)
+                if (value.isNotBlank()) return value
+            }
+        }
+        return "N/A"
     }
 
     @Suppress("DEPRECATION")
